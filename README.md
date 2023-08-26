@@ -10,7 +10,7 @@ Recursive Function Call
 Achieve the reversal of node pointing from the end to the beginning through recursive function calls, while adding an empty head pointer at the beginning.
 
 ### Core Code: 
-···
+```
 Stu* reverse(Stu* pH)
 {
 	if (pH->next == NULL)
@@ -37,7 +37,7 @@ Building the Tree Bottom-Up, Assigning Codes Top-Down
 When encoding, search for the existence of left child nodes from top to bottom. If absent, output the code. If present, assign 0 to the left child and 1 to the right child, and continue searching downward.
 
 ### Core Code: 
-···
+```
 while (num)
 	{
 		if (root->leftchild->leftchild == NULL)
@@ -85,7 +85,7 @@ The method involves using the sort() function to arrange all edges in ascending 
 4.Continue iterating through the remaining edges until only n-1 edges are left, forming the minimum spanning tree consisting of n nodes.
 
 ### Core Code: 
-···
+```
 void Kruskal()
 {
 	sort(e + 1, e + m + 1, cmp);//Sort the edges in ascending order based on their weights.
