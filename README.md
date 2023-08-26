@@ -11,6 +11,7 @@ Achieve the reversal of node pointing from the end to the beginning through recu
 
 ### Core Code: 
 
+
 Stu* reverse(Stu* pH)
 {
 	if (pH->next == NULL)
