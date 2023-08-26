@@ -23,7 +23,6 @@ Stu* reverse(Stu* pH)
 	Stu* newH = reverse(pH->next);//Recursively traverse the linked list until reaching the end of the list
 	pH->next->next = pH;//Recursively reverse the direction of each node's pointer
 	pH->next = NULL;
-
 	return newH;
 }
 
