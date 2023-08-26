@@ -25,6 +25,7 @@ Stu* reverse(Stu* pH)
 	return newH;
 }
 
+
 # Homework2--HuffmanTree.cpp
 ## Huffman Coding
 
@@ -66,6 +67,7 @@ while (num)
 		}
 		num--;
 	}
+
 
 # Homework3--Kruskal.cpp
 ## Kruskal’s Algorithm for finding Minimum Spanning Tree
